@@ -121,8 +121,13 @@ a:visited {
   padding: 15px 0px 10px;
   outline: none;
   font-family: inherit;
+  margin-bottom: 10px;
+  resize: none;
 }
-
+.form-group textarea {
+  resize: none;
+  height: 100px;
+}
 .row {
   display: flex;
   margin-bottom: 20px;
@@ -138,6 +143,9 @@ a:visited {
   border: none;
   font-family: inherit;
   cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
 }
 .button:hover {
   opacity: 0.9;
